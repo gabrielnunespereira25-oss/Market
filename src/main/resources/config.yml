@@ -1,1 +1,14 @@
-
+# THE INFINIT MARKET v1.3.0
+economy:
+  starting-balance: 0
+  balances: {}
+bounty:
+  # A recompensa começa no 4º abate (mais de 3 jogadores).
+  kills-to-become-wanted: 4
+  # IC adicionados à própria recompensa a cada abate a partir do limite.
+  reward-per-kill: 100
+  max-reward: 1000000000
+  kills: {}
+  active: {}
+offers: {}
+claims: {}

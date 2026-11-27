@@ -1,1 +1,24 @@
+name: TheInfinitMarket
+version: 1.3.0
+main: com.theinfinit.market.MarketPlugin
+api-version: '1.21'
+author: THE INFINIT
+description: Mercado de trocas entre jogadores do THE INFINIT.
 
+commands:
+  loja:
+    description: Abre o mercado público.
+    usage: /loja
+  store:
+    description: Gerencia suas ofertas.
+    usage: /store ajuda
+  ic:
+    description: Consulta e transfere Infinit Coin.
+    usage: /ic saldo
+  procurados:
+    description: Lista jogadores com recompensa.
+    usage: /procurados
+
+permissions:
+  theinfinitmarket.admin:
+    default: op
